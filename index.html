@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,6 +30,19 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $(".meter > span").each(function() {
+                $(this)
+                    .data("origWidth", $(this).width())
+                    .width(0)
+                    .animate({
+                        width: $(this).data("origWidth")
+                    }, 1200);
+            });
+        });
+    </script>
 
 </head>
 
@@ -310,7 +323,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+<!--     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -327,7 +340,7 @@
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://github.com/Narthe"><i class="fa fa-github"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
@@ -371,10 +384,31 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+
+    <section id="skills" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <ul>
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="meter animate">
+                        <span style="width: 25%"><span></span></span>
+                    </div>
+                </div>
+            </ul>
+        </div>
     </section>
 
+
     <!-- Clients Aside -->
-    <aside class="clients">
+<!--     <aside class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -399,7 +433,7 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside> -->
     
     <!-- Contact Section -->
     <section id="contact">
@@ -456,9 +490,9 @@
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://github.com/Narthe"><i class="fa fa-github"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://fr.linkedin.com/pub/julien-brasseur/8b/158/b68"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
