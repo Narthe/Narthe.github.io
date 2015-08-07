@@ -881,7 +881,7 @@ body {
 /*Level bars*/
 .meter { 
     height: 40px;  /* Can be anything */
-    width: 100px;
+    /*width: 100px;*/
     position: relative;
     background: #555;
     -moz-border-radius: 25px;
@@ -921,7 +921,7 @@ body {
   background-image: linear-gradient(to bottom, #f0a3a3, #f42323);
 }
 
-.meter > span:after, .animate > span > span {
+/*.meter > span:after, .animate > span > span {
   content: "";
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -961,8 +961,18 @@ body {
 .meter > span:after, .animate > span > span {
   animation: move 2s linear infinite;
 }
+/*
 
+.skill{
+    width: 100%;
+    overflow:hidden;
+    float: left;
+}*/
+
+#skills .progress{
+    display: inline-block;
+/*    width: 100%;*/
+}
 .skill-name{
-    margin-left:auto; 
-    margin-right:0;
+    display: inline-block;
 }

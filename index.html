@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Color scheme -->
+<!-- https://color.adobe.com/Neutral-Blue-color-theme-22361/ -->
+
 <head>
 
     <meta charset="utf-8">
@@ -17,6 +20,9 @@
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Skillbars CSS-->
+    <link rel="stylesheet" type="text/css" href="css/skillbar.css">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -30,7 +36,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
     <script>
         $(function() {
             $(".meter > span").each(function() {
@@ -392,20 +399,55 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Skills</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <ul>
-                <div class="skill">
-                    <div class="skill-name">Python</div>
-                    <div class="meter animate">
-                        <span style="width: 25%"><span></span></span>
-                    </div>
+            <div class="row">
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #3E606F;"><span>PYTHON</span></div>
+                    <div class="skillbar-bar" style="background: #3E606F;"></div>
+                    <div class="skill-bar-percent">85%</div>
                 </div>
-            </ul>
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #91AA9D;"><span>JAVA</span></div>
+                    <div class="skillbar-bar" style="background: #91AA9D;"></div>
+                    <div class="skill-bar-percent">70%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title" style="background: #D1DBBD;"><span>C/C#</span></div>
+                    <div class="skillbar-bar" style="background: #D1DBBD;"></div>
+                    <div class="skill-bar-percent">70%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #3E606F;"><span>ANDROID</span></div>
+                    <div class="skillbar-bar" style="background: #3E606F;"></div>
+                    <div class="skill-bar-percent">65%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #91AA9D;"><span>UNITY3D</span></div>
+                    <div class="skillbar-bar" style="background: #91AA9D;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #D1DBBD;"><span>OPENGL</span></div>
+                    <div class="skillbar-bar" style="background: #D1DBBD;"></div>
+                    <div class="skill-bar-percent">60%</div>
+                </div>
+            </div>
         </div>
     </section>
 
+
+    <section id="hobbies">
+        <div class="container">
+            <div class="row">
+                <ul>
+                    <li>tennis (lien vers...)</li>
+                    <li>Video games (liens vers steam, origin, battle.net, etc...)</li>
+                    <li>Photography (lien vers deviantart)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- Clients Aside -->
 <!--     <aside class="clients">
@@ -695,6 +737,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- Skillbars -->
+    <script src="js/skillbar.js"></script>
 
 </body>
 
