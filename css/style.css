@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #91AA9D;
 }
 
 h1,
@@ -280,46 +280,10 @@ header .container {
     padding-bottom: 50px;
 }
 
+
 header img {
     display: block;
     margin: 0 auto 20px;
-}
-
-/*header .profil-picture{*/
-    /*z-index: 100;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-/*    width: 170px;*/
-/*    height: 170px;*/
-/*    margin-right: 0;*/
-/*    border: 7px solid #f1f1f1;*/
-/*    border-radius: 100%;*/
-/*    text-align: center;*/
-/*}*/
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 0px;
-}
-header .intro-text .row {
-    align-items: center;
-    display: flex;
-}
-
-header .intro-text .intro-lead-in {
-    /*margin-bottom: 0px;*/
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
 }
 
 @media(min-width:768px) {
@@ -653,6 +617,12 @@ section h3.section-subheading {
     }
 }
 
+#social .row{
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -678,15 +648,15 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-color: #222;*/
+    /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
-    color: #fff;
-}
+/*section#contact .section-heading {*/
+/*    color: #fff;*/
+/*}*/
 
 section#contact .form-group {
     margin-bottom: 25px;
