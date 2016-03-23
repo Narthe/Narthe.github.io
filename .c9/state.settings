@@ -12,7 +12,7 @@
     },
     "console": {
         "@expanded": true,
-        "@height": 370,
+        "@height": 302,
         "@maximized": "false",
         "json()": {
             "meta": {
@@ -39,10 +39,10 @@
                         "filter": true,
                         "title": "Terminal",
                         "terminal": {
-                            "id": "devel_799",
+                            "id": "devel_300",
                             "cwd": "",
                             "width": 1648,
-                            "height": 344
+                            "height": 276
                         }
                     },
                     "editorType": "terminal",
@@ -52,12 +52,10 @@
                     "type": "tab",
                     "name": "tab1",
                     "path": "",
-                    "className": [
-                        "tab1"
-                    ],
+                    "className": [],
                     "document": {
                         "filter": true,
-                        "title": "Immediate (Javascript (browser))",
+                        "title": "Immediate",
                         "tooltip": "Immediate (Javascript (browser))",
                         "immediate": {
                             "folds": [],
@@ -111,20 +109,15 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 3,
+            "@document": 7,
             "@form": 5,
-            "@htmldocument": 1,
             "@imgeditor": 1,
-            "@immediate": 1,
             "@menu": 5,
             "@menuitem": 13,
-            "@pane": 4,
-            "@postmessage": 1,
-            "@preferences": 1,
-            "@preview": 1,
-            "@session": 2,
-            "@tab": 5,
-            "@undoManager": 3
+            "@pane": 2,
+            "@session": 6,
+            "@tab": 7,
+            "@undoManager": 7
         }
     },
     "findinfiles": {
@@ -176,7 +169,10 @@
         "@showfs": true,
         "expanded": {
             "json()": [
-                "/"
+                "/",
+                "/css",
+                "/img",
+                "/img/about"
             ]
         }
     },
@@ -186,7 +182,7 @@
     "search-history": {
         "search": {
             "json()": [
-                "Your"
+                "bootstrap"
             ]
         }
     },
@@ -211,7 +207,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1454412679961
+                            "timestamp": 1458738230316
                         },
                         "filter": true,
                         "title": "index.html",
@@ -229,7 +225,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/Rapport de stage Julien Brasseur (Dwarf Labs).pdf"
+            "/img/about/wildsheep.png"
         ]
     }
 }
