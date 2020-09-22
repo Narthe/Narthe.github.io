@@ -10781,3 +10781,20 @@ section.commitment h3{
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
 }
+
+.fas {
+  text-shadow: 1px 1px 4px #000000
+}
+
+.bounce:hover{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  animation: bounce .5s ease infinite alternate;
+}
+
+/*bounce animation*/
+@keyframes bounce {
+  0% {top:0px}
+  100% {top:-20px}
+}
