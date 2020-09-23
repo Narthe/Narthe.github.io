@@ -5805,16 +5805,21 @@ a.close.disabled {
 
 .modal-content {
   position: relative;
+  padding: 2rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: $main-color;
+  color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border: 0px;
   outline: 0;
 }
 
@@ -5841,12 +5846,15 @@ a.close.disabled {
       align-items: flex-start;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  background-color: $main-color;
+  color: $secondary-color;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
+  /*border-bottom: 1px solid #dee2e6;*/
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
 .modal-header .close {
+  color: #fff;
   padding: 1rem 1rem;
   margin: -1rem -1rem -1rem auto;
 }
